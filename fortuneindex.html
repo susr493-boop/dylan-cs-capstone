@@ -18,6 +18,8 @@
     </h1>
     <img src="https://w0.peakpx.com/wallpaper/84/349/HD-wallpaper-nuclear-fission-ourfuture-energy-nuclear-fusion.jpg" alt="atomic fusion" width="250">
     <form name="fortuneTeller" id="fortuneTeller" action="fortune.html">
+        <label for="date">Today's Date:</label>
+    <input type="date" id="date" value=""><br>
       <label for="namefield">Name:</label>
       <input type="text" id="namefield" name="name" placeholder="your name" required>
       <br>
@@ -39,9 +41,13 @@
         <option value="megareal">AU</option>
         <option value="real2">AF</option>
         <option value="really">AN</option>
-      </select>
-      <br>
+      </select><br><br>
+      <input type="checkbox"id="box"value="yes">
+      <label for="box">are you ready?</label>
+      <br><br>
       <input type="submit">
+      <br><br>
+      <input type="reset">
     </form>
     <div id="fortune"></div>
   </body>
