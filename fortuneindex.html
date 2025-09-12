@@ -9,19 +9,37 @@
     <title>Fortune Teller</title>
 
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fortunestyle.css" />
   </head>
   <body>
     <!-- this is the start of content -->
     <h1>
       Fortune Teller
     </h1>
+    <img src="https://w0.peakpx.com/wallpaper/84/349/HD-wallpaper-nuclear-fission-ourfuture-energy-nuclear-fusion.jpg" alt="atomic fusion">
     <form name="fortuneTeller" id="fortuneTeller" action="fortune.html">
       <label for="namefield">Name:</label>
       <input type="text" id="namefield" name="name" placeholder="your name" required>
       <br>
-      <label for="questionfield">Question:</label>
-      <input type="text" id="questionfield" name="question" placeholder="a yes or no question">
+      <label for="questionfield">Question:</label><br>
+      <textarea type="" id="questionfield" name="question" placeholder="a yes or no question"></textarea>
+      <p>are you over 18</p>
+        <input type="radio" id="a" value="optionA" name="age">
+        <label for="a">Yea</label><br>
+        <input type="radio" id="b" value="optionB" name="age">
+        <label for="b">no...</label>
+      <br>
+      <label for="selection">Continent:</label>
+      <select name="" id="selection" value="">
+        <option value="default">Which continent are you</option>
+        <option value="real">NA</option>
+        <option value="reels">SA</option>
+        <option value="fake">EU</option>
+        <option value="ultrareal">AS</option>
+        <option value="megareal">AU</option>
+        <option value="real2">AF</option>
+        <option value="really">AN</option>
+      </select>
       <br>
       <input type="submit">
     </form>
