@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alien survey!</title>
+</head>
+<body>
+    <h1>Which Planet Are You From</h1>
+    <p>
+        This survey is for all the aliens lost in this big universe of ours. <br>
+        If this survey found you, then you're in luck!<br>
+        This survey automatically translates to the reader's langauge
+    </p>
+    <blockquote>"Everyone, thing, and place with and without a 'soul' has the right to the safety of a home. Our program is here to ensure that right."<br></blockquote>
+    <p>
+        -Gart Surveyous, Intergalatic Rehabitation Center CEO
+    </p>
+    <form action="results.html">
+        <label for="name">What is your full legal name?<br></label>
+        <input type="text" id="name" value="" placeholder="write here..."><br>
+
+        <p>Do you experience time non-linearly?</p>
+        <input type="radio" id="a" value="optionA" name="time">
+        <label for="a">Yes</label>
+        <input type="radio" id="b" value="optionA" name="time">
+        <label for="b">No</label><br><br>
+
+        <label for="date">If not, what is the date today? <br></label>
+        <input type="date" id="date" value="date" name="date">
+        <input type="radio" id="na" value="OptionNA"><label for="na">N/A</label><br>
+
+        <p>Select every box familar to your homeland</p>
+        <input type="checkbox" id="b1" value="boxA" name="thing">
+        <label for="b1">Florp tunneling</label><br>
+        <input type="checkbox" id="b2" value="boxB" name="thing">
+        <label for="b2">Heaven</label><br>
+        <input type="checkbox" id="b3" value="boxC" name="thing">
+        <label for="b3">Exotic matter</label><br>
+        <input type="checkbox" id="b4" value="boxD" name="thing">
+        <label for="b4">Crimson strand</label><br>
+        <input type="checkbox" id="b5" value="boxE" name="thing">
+        <label for="b5">Gart</label><br>
+        <input type="checkbox" id="b6" value="boxF" name="thing">
+        <label for="b6">Plunton tree species</label><br>
+        <input type="checkbox" id="b7" value="boxG" name="thing">
+        <label for="b7">Hot potato soup</label><br>
+        <input type="checkbox" id="b8" value="boxH" name="thing">
+        <label for="b8">N/A</label><br>
+
+        <p>What is the brightest thing in the sky of your planet?</p>
+        <input type="radio" id="r1" value="optionAA" name="bright">
+        <label for="r1">A natural star</label><br>
+        <input type="radio" id="r2" value="optionBA" name="bright">
+        <label for="r2">An aritficial star</label><br>
+        <input type="radio" id="r3" value="optionCA" name="bright">
+        <label for="r3">Neighboring galaxy/galaxy cluster</label><br>
+        <input type="radio" id="r4" value="optionDA" name="bright">
+        <label for="r4">Super nova or nebula</label><br>
+        <input type="radio" id="r5" value="optionEA" name="bright">
+        <label for="r5">Blackhole or whitehole</label><br>
+        <input type="radio" id="r6" value="optionFA" name="bright">
+        <label for="r6">N/A or unsure</label><br>
+
+        <p>What is the level of your civilization?</p>
+        <select name="level" id="select">
+            <option value="blank">Choose one...</option>
+            <option value="L0">Level 0-1</option>
+            <option value="L1">Level 1-2</option>
+            <option value="L2">Level 2-3</option>
+            <option value="L3">Level 3-4</option>
+            <option value="L4">Level 4+</option>
+            <option value="L5">Unsure</option>
+        </select><br><br>
+
+        <label for="pname">Write the full name of your planet <br></label>
+        <input type="text" id="pname" value="" placeholder="write here..."><br><br>
+   
+        <label for="area">Any additional comments/concerns?</label><br>
+        <textarea id="area" value="" placeholder="write here..."></textarea><br><br>
+        
+        <input type="submit" value="Submit Response"><br><br>
+
+        <input type="reset" value="Reset Answers">
+    
+    </form>
+</body>
+</html>
