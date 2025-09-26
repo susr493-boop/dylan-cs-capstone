@@ -1,5 +1,14 @@
 let fortunes = ["idk", "100%", "nah", "gart", "peppy", "goobert", "sure, why not", "start diggin", "fries in bag bro what are you doing", "go nuts"];
 
+function randint(min, max){
+  min=Math.ceil(min);
+  max=Math.ceil(max);
+  return Math.floor(Math.random()*(max-min+1)+min)
+
+}
+
+let random = randint(1,fortunes)
+
 // Hash function
 function cyrb128(str) {
   let h1 = 1779033703,
