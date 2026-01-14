@@ -27,6 +27,6 @@ p{
             text-decoration: line-through;
         }
 
-.section{
-    align-items: baseline;
-}
+/* .section{
+    text-align: center;
+} */
